@@ -189,7 +189,7 @@ body {
     transform: translate(25%, -40%);
     z-index: 1;
     animation: text2 1s linear forwards 4s;
-    color: #DEDAD5;
+    color: #000000;
     font-family: "Bruney";
     opacity: 0.6;
 }
@@ -757,8 +757,9 @@ a {
 
 
 .lng-timerhead {
-        font-family: "Kotayk";
+    font-family: "Kotayk";
 }
+
 /*********************************************************************/
 
 .ayan {

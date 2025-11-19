@@ -510,7 +510,7 @@ button {
     max-width: 480px;
     width: 100%;
     z-index: 12;
-    margin: -4.5%;
+    /* margin: -4.5%; */
 }
 
 .place {
@@ -926,7 +926,7 @@ h6 {
         /* height: 205px; */
         /* transform: translateY(0px); */
         z-index: 13;
-        margin-top: -6%;
+        /* margin-top: -6%; */
         background-image: url(images/vvv.png);
         background-position: center;
         background-size: cover;

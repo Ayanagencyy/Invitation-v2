@@ -1142,3 +1142,37 @@ h6 {
         animation: lefthand1 1s forwards 4s;
     }
 } */
+
+@media screen and (max-height : 950px) {
+    .wishs {
+        height: 205px;
+        width: 100%;
+        /* height: 109%; */
+        z-index: 12;
+        position: relative;
+        transform: translateY(-73px);
+        background-image: url(images/IMG_8250.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .headertext2 {
+        left: 55%;
+        transform: translate(68%, -66%);
+        animation: text2_2 2s linear forwards 3s;
+    }
+
+    .lng-latetext1 {
+        font-family: 'Kotayk';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 150%;
+        margin-bottom: 30px;
+        transform: translateX(13px);
+    }
+}

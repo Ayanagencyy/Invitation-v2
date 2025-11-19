@@ -85,6 +85,103 @@ body {
 }
 
 
+
+.convert {
+    top: 0;
+    left: 50%;
+    transform: translateX(-150%);
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    z-index: 99;
+}
+
+.converttop {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 99;
+    transform:  scale(1.2);
+    animation: opentop 2s linear forwards 0.5s;
+}
+
+.convertbody {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    transform:  scale(1.2);
+    z-index: 98;
+    animation: openbody 2s linear forwards 0.5s;
+}
+
+
+/* .audiobtn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    color: white;
+    z-index: 1000 !important;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: none !important;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+} */
+
+.audiobtn:hover {
+    opacity: 1;
+    /* transform: scale(1.1) !important; */
+}
+
+.convert,
+.converttop,
+.convertbody {
+    pointer-events: none;
+}
+
+/* .audio-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+} */
+
+@keyframes opentop {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: translateX(-1000px);
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes openbody {
+    from {
+        transform:scale(1.2);
+    }
+
+    to {
+        transform: translateX(1000px);
+        opacity: 0;
+        display: none;
+    }
+}
+
 .convert_left {
     position: absolute;
     left: 32%;

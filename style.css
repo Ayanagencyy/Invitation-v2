@@ -1242,7 +1242,7 @@ h6 {
 @media screen and (max-width: 600px) and (max-height: 950px) {
 
     .wishs {
-        height: 205px;
+        height: 230px;
         /* transform: translateY(-81px); */
         z-index: 13;
     }

@@ -89,7 +89,7 @@ body {
 .convert {
     top: 0;
     left: 50%;
-    transform: translateX(-150%);
+    transform: translateX(-125%);
     width: 100%;
     position: fixed;
     height: 100vh;
@@ -913,7 +913,7 @@ h6 {
     }
 
     .convert {
-        transform: translateX(-100%);
+        transform: translateX(-125%);
     }
 
     .convert_left {
@@ -1019,7 +1019,7 @@ h6 {
     }
 
     .wishs {
-        height: 227px;
+        height: 250px;
         width: 100%;
         z-index: 12;
         position: relative;

@@ -510,7 +510,8 @@ button {
     max-width: 480px;
     width: 100%;
     z-index: 12;
-    margin: 0;
+    margin: -3%;
+
 }
 
 .place {
@@ -597,7 +598,7 @@ a {
     position: relative;
     text-align: center;
     font-family: "Kotayk-Regular";
-    /* margin: -5%; */
+    margin: -2%;
 }
 
 .line {
@@ -926,7 +927,7 @@ h6 {
         /* height: 205px; */
         /* transform: translateY(0px); */
         z-index: 13;
-        /* margin-top: -6%; */
+        margin-top: -2%;
         background-image: url(images/vvv.png);
         background-position: center;
         background-size: cover;

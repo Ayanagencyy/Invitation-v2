@@ -913,7 +913,7 @@ h6 {
     }
 
     .convert {
-        transform: translateX(-140%);
+        transform: translateX(-100%);
     }
 
     .convert_left {
@@ -1026,7 +1026,7 @@ h6 {
         /* height: 205px; */
         /* transform: translateY(0px); */
         z-index: 13;
-        /* margin-top: -2%; */
+        margin-top: 10px;
         background-image: url(images/vvv.png);
         background-position: center;
         background-size: cover;

@@ -1147,6 +1147,7 @@ h6 {
     .wishs {
         height: 205px ;
         transform: translateY(-73px);
+        z-index: 13;
     }
 
     .headertext2 {

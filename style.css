@@ -510,7 +510,7 @@ button {
     max-width: 480px;
     width: 100%;
     z-index: 12;
-    /* margin: -4.5%; */
+    margin: 0;
 }
 
 .place {

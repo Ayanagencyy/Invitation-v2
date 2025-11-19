@@ -922,7 +922,7 @@ h6 {
         width: 100%;
         z-index: 12;
         position: relative;
-        transform: translateY(-75px);
+        transform: translateY(-81px);
         background-image: url(images/vvv.png);
         background-position: center;
         background-size: cover;

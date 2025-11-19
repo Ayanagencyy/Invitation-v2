@@ -852,18 +852,19 @@ h6 {
 
     .headertext1 {
         left: -90%;
-        transform: translate(-45%, -35%);
+        transform: translate(-45%, -55%);
 
         animation: text1_2 2s linear forwards 3s;
     }
 
     .headertext2 {
         left: 55%;
+        transform: translate(56%, -40%);
         animation: text2_2 2s linear forwards 3s;
     }
 
     .font {
-        font-size: 66px;
+        font-size: 76px;
     }
 
     .headertext3 {
@@ -1099,7 +1100,7 @@ h6 {
     }
 }
 
-
+/* 
 
 @media screen and (max-width : 375px) {
 
@@ -1118,4 +1119,4 @@ h6 {
         top: 30%;
         animation: lefthand1 1s forwards 4s;
     }
-}
+} */

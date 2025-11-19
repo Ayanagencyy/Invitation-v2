@@ -390,7 +390,7 @@ body {
     /* margin-top: 80px; */
     max-width: 480px;
     width: 100%;
-    height: 250px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -415,10 +415,10 @@ body {
     font-weight: 100;
     font-size: 40px;
     line-height: 150%;
+    margin-bottom: 30px;
 }
 
 .lng-latetext2 {
-    margin-top: 30px;
     font-family: "Kotayk";
     transform: translateY(-5%);
     font-size: 20px;
@@ -595,7 +595,6 @@ a {
     height: 100%;
     position: relative;
     text-align: center;
-    margin-bottom: 100px;
     font-family: "Kotayk-Regular";
 }
 
@@ -875,7 +874,7 @@ h6 {
 
     .lng-latetext2 {
         width: 90%;
-        font-size: 21px;
+        font-size: 16px;
     }
 
     .calendar {
@@ -1097,5 +1096,26 @@ h6 {
             right: 2%;
             transform: scale(1.25);
         }
+    }
+}
+
+
+
+@media screen and (max-width : 375px) {
+
+    .right_hand_img {
+        width: 150px;
+        position: absolute;
+        top: 34%;
+        right: 0%;
+        animation: righthand1 1s forwards 4s;
+    }
+
+    .left_hand_img {
+        width: 150px;
+        position: absolute;
+        left: 0%;
+        top: 30%;
+        animation: lefthand1 1s forwards 4s;
     }
 }

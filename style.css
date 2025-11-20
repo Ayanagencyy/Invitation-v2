@@ -1029,7 +1029,7 @@ h6 {
         /* transform: translateY(0px); */
         z-index: 13;
         margin-top: 10px;
-        background-image: url(images/vvv.png);
+        background-image: url(images/IMG_8250.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1037,6 +1037,13 @@ h6 {
         align-items: center;
         justify-content: center;
         /* background-color: white; */
+    }
+
+    .wish {
+        text-align: center;
+        font-size: 42px;
+        font-family: "Kotayk";
+        /* rotate: -10deg; */
     }
 
     .plan_block4 {
